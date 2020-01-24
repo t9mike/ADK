@@ -154,6 +154,11 @@ namespace ADK
             Day = uDateTime.Day + uDateTime.TimeOfDay.TotalHours / 24.0;
         }
 
+        public DateTime ToDateTimeUTC()
+        {
+            return new DateTime(Year, Month, (int)Day, Hour, Minute, Second, DateTimeKind.Utc);
+        }
+
         /// <summary>
         /// Creates new <see cref="Date"/> instance from Julian Day value.
         /// </summary>

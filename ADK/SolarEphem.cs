@@ -50,6 +50,13 @@ namespace ADK
             return Convert.ToInt64(1690 + (jd - 2444235.34) / 27.2753);
         }
 
+        public static Date SeasonDate(int year, Season s)
+        {
+            var year_date = new Date(year, 1, 1);
+            var jd = Season(year_date.ToJulianDay(), s);
+            return new Date(jd);
+        }
+
         /// <summary>
         /// Calculates instant of beginning of astronomical season for given julian day.
         /// </summary>

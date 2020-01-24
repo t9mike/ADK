@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planetarium.Plugins.Constel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planetarium.Plugins.BrightStars", "Planetarium.Plugins.BrightStars\Planetarium.Plugins.BrightStars.csproj", "{F6C83D37-02D7-41A3-B9E9-C5DE0C29F0CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADK.ConsoleApp", "ADK.ConsoleApp\ADK.ConsoleApp.csproj", "{76948528-17CE-4A1F-B804-494A2F938E92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +104,10 @@ Global
 		{F6C83D37-02D7-41A3-B9E9-C5DE0C29F0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6C83D37-02D7-41A3-B9E9-C5DE0C29F0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6C83D37-02D7-41A3-B9E9-C5DE0C29F0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76948528-17CE-4A1F-B804-494A2F938E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76948528-17CE-4A1F-B804-494A2F938E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76948528-17CE-4A1F-B804-494A2F938E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76948528-17CE-4A1F-B804-494A2F938E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
